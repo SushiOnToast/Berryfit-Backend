@@ -1,5 +1,5 @@
 import express from "express";
-import authRoutes from "..src//routes/authRoutes.js";
+import authRoutes from "..src/routes/authRoutes.js";
 import { connectDB } from "../src/lib/db.js";
 import serverless from "serverless-http";
 
