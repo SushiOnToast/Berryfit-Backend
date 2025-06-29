@@ -11,4 +11,5 @@ app.use(express.json());
 
 app.use("/api/auth", authRoutes);
 
-export const handler = serverless(app);
+export default serverless(app);
+
